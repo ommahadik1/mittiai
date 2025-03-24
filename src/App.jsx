@@ -5,7 +5,7 @@ function App() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 font-sans">
       <header className="flex justify-between w-full p-5 box-border">
         <div className="flex items-center">
-          <img src="/mitti-logo.png" alt="Mitti Logo" className="h-10" />
+          <img src="/mitti-logo.jpeg" alt="Mitti Logo" className="h-10" />
           <span className="ml-2">Mitti AI</span>
         </div>
         <nav className="flex">
