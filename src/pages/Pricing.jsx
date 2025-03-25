@@ -12,7 +12,9 @@ function Pricing() {
       <div className="flex flex-wrap justify-center gap-8">
         {/* AI Personalized Report Card */}
         <div className="bg-gray-800 text-white rounded-lg shadow-md p-6 w-full md:w-80">
-          <h2 className="text-2xl font-semibold mb-4">AI Personalized Report</h2>
+          <h2 className="text-2xl font-semibold mb-4">
+            AI Personalized Report
+          </h2>
           <div className="text-4xl font-bold text-orange-400 mb-4">
             ₹99 / Test
           </div>
@@ -29,9 +31,7 @@ function Pricing() {
         {/* Mitti Kit Pricing Card */}
         <div className="bg-gray-800 text-white rounded-lg shadow-md p-6 w-full md:w-80">
           <h2 className="text-2xl font-semibold mb-4">Mitti Kit</h2>
-          <div className="text-4xl font-bold text-green-400 mb-4">
-            ₹1499
-          </div>
+          <div className="text-4xl font-bold text-green-400 mb-4">₹1499</div>
           <ul className="list-disc list-inside text-left mb-6">
             <li className="py-1">pH Level Test</li>
             <li className="py-1">NPK (Nitrogen, Phosphorus, Potassium) Test</li>
@@ -45,9 +45,7 @@ function Pricing() {
         {/* Premium Mitti Kit Pricing Card */}
         <div className="bg-gray-800 text-white rounded-lg shadow-md p-6 w-full md:w-80">
           <h2 className="text-2xl font-semibold mb-4">Premium Mitti Kit</h2>
-          <div className="text-4xl font-bold text-blue-400 mb-4">
-            ₹6999
-          </div>
+          <div className="text-4xl font-bold text-blue-400 mb-4">₹2499</div>
           <ul className="list-disc list-inside text-left mb-6">
             <li className="py-1">pH Level Test</li>
             <li className="py-1">NPK (Nitrogen, Phosphorus, Potassium) Test</li>
