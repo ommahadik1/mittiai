@@ -1,105 +1,140 @@
 import React from "react";
 import "./Howitworks.css";
+import { useTranslation } from "react-i18next";
 
 function HowItWorks() {
+  const { t } = useTranslation();
+
   return (
     <main className="flex flex-col items-center p-5 max-w-3xl mt-20">
       <h1 className="text-4xl font-bold mb-8 text-center text-green-700">
-        🌱 How Mitti Works: Smart Farming Made Simple! ✨
+        {t("how_it_works.title")}
       </h1>
 
       <section className="mb-12 p-6 bg-green-100 rounded-lg shadow-md w-full">
         <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
-          🔬 AI Soil Analysis 🚀
+          {t("how_it_works.ai_soil_analysis")}
         </h2>
         <ul className="list-disc list-inside text-left text-gray-700">
           <li className="mb-4">
-            <strong className="text-blue-600">Step 1:</strong> Mitti’s AI
-            analyzes soil data from your Mitti Kit.
+            <strong className="text-blue-600">
+              {t("how_it_works.step_1_label")}:
+            </strong>{" "}
+            {t("how_it_works.ai_step_1")}
           </li>
           <li className="mb-4">
-            <strong className="text-blue-600">Step 2:</strong> Get personalized
-            insights on plant growth, fertilizers & soil health.
+            <strong className="text-blue-600">
+              {t("how_it_works.step_2_label")}:
+            </strong>{" "}
+            {t("how_it_works.ai_step_2")}
           </li>
           <li className="mb-4">
-            <strong className="text-blue-600">Step 3:</strong> Optimize farming
-            for better yields!
+            <strong className="text-blue-600">
+              {t("how_it_works.step_3_label")}:
+            </strong>{" "}
+            {t("how_it_works.ai_step_3")}
           </li>
         </ul>
       </section>
 
       <section className="mb-12 p-6 bg-blue-100 rounded-lg shadow-md w-full">
         <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
-          🛠 Using the Mitti Kit 🧪
+          {t("how_it_works.mitti_kit")}
         </h2>
         <ol className="list-decimal list-inside text-left text-gray-700">
           <li className="mb-4">
-            <strong className="text-green-600">Step 1:</strong> Collect soil
-            samples as per kit instructions.
+            <strong className="text-green-600">
+              {t("how_it_works.step_1_label")}:
+            </strong>{" "}
+            {t("how_it_works.mitti_step_1")}
           </li>
           <li className="mb-4">
-            <strong className="text-green-600">Step 2:</strong> Test for pH,
-            NPK, organic carbon, etc.
+            <strong className="text-green-600">
+              {t("how_it_works.step_2_label")}:
+            </strong>{" "}
+            {t("how_it_works.mitti_step_2")}
           </li>
           <li className="mb-4">
-            <strong className="text-green-600">Step 3:</strong> Enter results on
-            the Test Page.
+            <strong className="text-green-600">
+              {t("how_it_works.step_3_label")}:
+            </strong>{" "}
+            {t("how_it_works.mitti_step_3")}
           </li>
           <li className="mb-4">
-            <strong className="text-green-600">Step 4:</strong> Get AI-powered
-            advice!
+            <strong className="text-green-600">
+              {t("how_it_works.step_4_label")}:
+            </strong>{" "}
+            {t("how_it_works.mitti_step_4")}
           </li>
         </ol>
       </section>
 
       <section className="mb-12 p-6 bg-yellow-100 rounded-lg shadow-md w-full">
         <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
-          🌍 Navigating the Website 🏠
+          {t("how_it_works.navigating_website")}
         </h2>
         <ul className="list-disc list-inside text-left text-gray-700">
           <li className="mb-4">
-            <strong className="text-purple-600">Home:</strong> Explore Mitti’s
-            benefits.
+            <strong className="text-purple-600">
+              {t("how_it_works.home_label")}:
+            </strong>{" "}
+            {t("how_it_works.nav_home")}
           </li>
           <li className="mb-4">
-            <strong className="text-purple-600">How It Works:</strong> Learn to
-            use the kit & website.
+            <strong className="text-purple-600">
+              {t("how_it_works.how_it_works_label")}:
+            </strong>{" "}
+            {t("how_it_works.nav_how_it_works")}
           </li>
           <li className="mb-4">
-            <strong className="text-purple-600">Pricing:</strong> Pick a plan.
+            <strong className="text-purple-600">
+              {t("how_it_works.pricing_label")}:
+            </strong>{" "}
+            {t("how_it_works.nav_pricing")}
           </li>
           <li className="mb-4">
-            <strong className="text-purple-600">Test:</strong> Enter soil data &
-            get insights.
+            <strong className="text-purple-600">
+              {t("how_it_works.test_label")}:
+            </strong>{" "}
+            {t("how_it_works.nav_test")}
           </li>
         </ul>
       </section>
 
       <section className="p-6 bg-pink-100 rounded-lg shadow-md w-full">
         <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
-          📌 Using the Test Page 📊
+          {t("how_it_works.test_page")}
         </h2>
         <ol className="list-decimal list-inside text-left text-gray-700">
           <li className="mb-4">
-            <strong className="text-red-600">Step 1:</strong> Enter Farmer ID &
-            Location.
+            <strong className="text-red-600">
+              {t("how_it_works.step_1_label")}:
+            </strong>{" "}
+            {t("how_it_works.test_step_1")}
           </li>
           <li className="mb-4">
-            <strong className="text-red-600">Step 2:</strong> Select Soil Type.
+            <strong className="text-red-600">
+              {t("how_it_works.step_2_label")}:
+            </strong>{" "}
+            {t("how_it_works.test_step_2")}
           </li>
           <li className="mb-4">
-            <strong className="text-red-600">Step 3:</strong> Input soil
-            parameters.
+            <strong className="text-red-600">
+              {t("how_it_works.step_3_label")}:
+            </strong>{" "}
+            {t("how_it_works.test_step_3")}
           </li>
           <li className="mb-4">
-            <strong className="text-red-600">Step 4:</strong> Get AI
-            recommendations.
+            <strong className="text-red-600">
+              {t("how_it_works.step_4_label")}:
+            </strong>{" "}
+            {t("how_it_works.test_step_4")}
           </li>
         </ol>
       </section>
 
       <p className="mt-8 text-lg text-center text-green-700 font-semibold">
-        🚜 Mitti helps you grow smarter! Start today! 🌱✨
+        {t("how_it_works.footer")}
       </p>
     </main>
   );
