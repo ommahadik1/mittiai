@@ -1,12 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom"; // Import useNavigate
 
 function Navbar() {
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  const handleLogoClick = () => {
+    navigate("/"); // Redirect to home page when logo is clicked
+  };
+
   return (
     <>
-      <header className=" top-0 left-0 w-full p-5 bg-white z-10 box-border shadow-sm">
+      <header className="top-0 left-0 w-full p-5 bg-white z-10 box-border shadow-sm">
         <div className="flex flex-col items-center w-full">
-          <div className="mb-4">
+          <div className="mb-4 cursor-pointer" onClick={handleLogoClick}> {/* Added onClick handler and cursor pointer */}
             <img
               src="/mitti-logo.jpeg"
               alt="Mitti Logo"
