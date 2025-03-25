@@ -10,10 +10,28 @@ function Pricing() {
       </p>
 
       <div className="flex flex-wrap justify-center gap-8">
+        {/* AI Personalized Report Card */}
+        <div className="bg-white rounded-lg shadow-md p-6 w-full md:w-80">
+          <h2 className="text-2xl font-semibold mb-4">AI Personalized Report</h2>
+          <div className="text-4xl font-bold text-orange-600 mb-4">
+            ₹99 / Test
+          </div>
+          <ul className="list-disc list-inside text-left mb-6">
+            <li>Plant-Based Recommendations</li>
+            <li>Fertilizer-Based Recommendations</li>
+            <li>Soil Health Recommendations</li>
+          </ul>
+          <button className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded-md w-full">
+            Get Now
+          </button>
+        </div>
+
         {/* Mitti Kit Pricing Card */}
         <div className="bg-white rounded-lg shadow-md p-6 w-full md:w-80">
           <h2 className="text-2xl font-semibold mb-4">Mitti Kit</h2>
-          <div className="text-4xl font-bold text-green-600 mb-4">₹399</div>
+          <div className="text-4xl font-bold text-green-600 mb-4">
+            ₹1499
+          </div>
           <ul className="list-disc list-inside text-left mb-6">
             <li>pH Level Test</li>
             <li>NPK (Nitrogen, Phosphorus, Potassium) Test</li>
@@ -24,12 +42,12 @@ function Pricing() {
           </button>
         </div>
 
-        {/* Add more pricing cards here if needed */}
-        {/* Example for a second plan: */}
-
+        {/* Premium Mitti Kit Pricing Card */}
         <div className="bg-white rounded-lg shadow-md p-6 w-full md:w-80">
           <h2 className="text-2xl font-semibold mb-4">Premium Mitti Kit</h2>
-          <div className="text-4xl font-bold text-blue-600 mb-4">₹999</div>
+          <div className="text-4xl font-bold text-blue-600 mb-4">
+            ₹6999
+          </div>
           <ul className="list-disc list-inside text-left mb-6">
             <li>pH Level Test</li>
             <li>NPK (Nitrogen, Phosphorus, Potassium) Test</li>
