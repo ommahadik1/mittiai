@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <header className="fixed top-0 left-0 w-full p-5 bg-white z-10 box-border shadow-sm">
+      <header className=" top-0 left-0 w-full p-5 bg-white z-10 box-border shadow-sm">
         <div className="flex flex-col items-center w-full">
           <div className="mb-4">
             <img
@@ -32,7 +32,6 @@ function Navbar() {
           </nav>
         </div>
       </header>
-      <div className="h-64"></div>
     </>
   );
 }

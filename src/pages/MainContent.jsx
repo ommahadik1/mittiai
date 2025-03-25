@@ -9,10 +9,7 @@ function MainContent() {
   };
 
   return (
-    <main className="flex flex-col items-center text-center p-5 max-w-3xl mx-auto mt-32">
-      <h1 className="text-4xl font-bold mb-5">
-        AI-Powered Soil Health For Better Farming
-      </h1>
+    <main className="flex flex-col items-center text-center p-5 max-w-3xl mx-auto ">
       <p className="text-lg text-gray-600 mb-8">
         Mitti is an AI-powered soil health assessment tool and kit that provides
         real-time, on-field diagnostics for nutrients, pH, and physical

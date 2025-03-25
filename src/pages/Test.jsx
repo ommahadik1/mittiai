@@ -106,7 +106,7 @@ const SoilHealthDetection = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-10">
+    <div className="container mx-auto px-4 py-10 ">
       <div className="max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg">
         <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">
           Soil Health Detection
