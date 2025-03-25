@@ -1,5 +1,5 @@
 import React from "react";
-import "Howitworks.css";
+import "./Howitworks.css";
 
 function HowItWorks() {
   return (
