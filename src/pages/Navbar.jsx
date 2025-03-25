@@ -10,7 +10,7 @@ function Navbar() {
             <img
               src="/mitti-logo.jpeg"
               alt="Mitti Logo"
-              className="h-24 w-auto"
+              className="h-52 w-auto"
             />
           </div>
           <nav className="flex">
@@ -32,7 +32,7 @@ function Navbar() {
           </nav>
         </div>
       </header>
-      <div className="h-32"></div>
+      <div className="h-40"></div>
     </>
   );
 }
