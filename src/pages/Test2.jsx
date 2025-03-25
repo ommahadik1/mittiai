@@ -39,13 +39,14 @@ const SoilHealthDetection = () => {
     ],
   };
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
+  // Remove handleInputChange since inputs are now read-only
+  // const handleInputChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prevState) => ({
+  //     ...prevState,
+  //     [name]: value,
+  //   }));
+  // };
 
   const toggleCategory = (category) => {
     setExpandedCategory((prevCategory) =>
@@ -82,10 +83,10 @@ const SoilHealthDetection = () => {
               <input
                 type="text"
                 name="farmerId"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-100 cursor-not-allowed"
                 placeholder={t("soil_health.farmer_id_placeholder")}
                 value={formData.farmerId}
-                onChange={handleInputChange}
+                readOnly
               />
             </div>
             <div>
@@ -95,10 +96,10 @@ const SoilHealthDetection = () => {
               <input
                 type="text"
                 name="location"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-100 cursor-not-allowed"
                 placeholder={t("soil_health.farm_location_placeholder")}
                 value={formData.location}
-                onChange={handleInputChange}
+                readOnly
               />
             </div>
             <div>
@@ -107,9 +108,9 @@ const SoilHealthDetection = () => {
               </label>
               <select
                 name="soilType"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-100 cursor-not-allowed"
                 value={formData.soilType}
-                onChange={handleInputChange}
+                disabled
               >
                 <option value="">
                   {t("soil_health.soil_type_placeholder")}
@@ -166,10 +167,10 @@ const SoilHealthDetection = () => {
                 <input
                   type="number"
                   name={name}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-100 cursor-not-allowed"
                   placeholder={placeholder}
                   value={formData[name]}
-                  onChange={handleInputChange}
+                  readOnly
                 />
               </div>
             ))}
