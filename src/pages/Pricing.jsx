@@ -12,9 +12,7 @@ function Pricing() {
       <div className="flex flex-wrap justify-center gap-8">
         {/* AI Personalized Report Card */}
         <div className="bg-gray-800 text-white rounded-lg shadow-md p-6 w-full md:w-80">
-          <h2 className="text-2xl font-semibold mb-4">
-            AI Personalized Report
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">Mitti AI Premium</h2>
           <div className="text-4xl font-bold text-orange-400 mb-4">
             ₹99 / Test
           </div>
@@ -24,7 +22,7 @@ function Pricing() {
             <li className="py-1">Soil Health Recommendations</li>
           </ul>
           <button className="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded-md w-full">
-            Get Now
+            Buy Now
           </button>
         </div>
 
@@ -36,9 +34,10 @@ function Pricing() {
             <li className="py-1">pH Level Test</li>
             <li className="py-1">NPK (Nitrogen, Phosphorus, Potassium) Test</li>
             <li className="py-1">Organic Carbon Test</li>
+            <li className="py-1">Personalize Report</li>
           </ul>
           <button className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md w-full">
-            Get Now
+            Buy Now
           </button>
         </div>
 
@@ -55,7 +54,7 @@ function Pricing() {
             <li className="py-1">Personalized Report</li>
           </ul>
           <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md w-full">
-            Get Now
+            Buy Now
           </button>
         </div>
       </div>
