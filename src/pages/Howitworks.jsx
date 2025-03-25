@@ -1,4 +1,3 @@
-// HowItWorks.js
 import React from "react";
 
 function HowItWorks() {
@@ -10,131 +9,91 @@ function HowItWorks() {
         <h2 className="text-2xl font-semibold mb-4 text-center">
           Understanding Mitti and AI Soil Analysis
         </h2>
-        <p className="text-lg text-gray-700 mb-4 text-justify">
-          Mitti empowers farmers with advanced soil analysis using our
-          AI-powered Mitti Kits. Our technology helps you understand your soil's
-          health, optimize fertilizer usage, and improve crop yields.
-        </p>
-        <p className="text-lg text-gray-700 mb-4 text-justify">
-          Our AI analyzes soil test data, providing personalized recommendations
-          for plant growth, fertilizer application, and overall soil health
-          management.
-        </p>
+        <ul className="list-disc list-inside text-left">
+          <li className="mb-2">
+            <strong>Step 1: AI-Powered Soil Analysis:</strong> Mitti uses AI to
+            analyze soil data from our Mitti Kits.
+          </li>
+          <li className="mb-2">
+            <strong>Step 2: Personalized Recommendations:</strong> Receive
+            insights on plant growth, fertilizer use, and soil health.
+          </li>
+          <li className="mb-2">
+            <strong>Step 3: Improved Crop Yields:</strong> Optimize your farming
+            practices for better results.
+          </li>
+        </ul>
       </section>
 
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4 text-center">
-          Using the Mitti Kit
+          Using the Mitti Kit - Steps
         </h2>
-        <div className="space-y-4">
-          <div className="flex items-start">
-            <span className="mr-3 text-green-500 font-bold">1.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Collect Soil Samples:</strong> Follow the instructions
-              provided with your Mitti Kit to collect representative soil
-              samples from your field.
-            </p>
-          </div>
-          <div className="flex items-start">
-            <span className="mr-3 text-green-500 font-bold">2.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Perform Tests:</strong> Use the Mitti Kit to perform the
-              necessary soil tests, including pH, NPK, organic carbon, and other
-              parameters.
-            </p>
-          </div>
-          <div className="flex items-start">
-            <span className="mr-3 text-green-500 font-bold">3.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Enter Data on Website:</strong> Go to the "Test" page on
-              our website and enter the test results. You can also upload a soil
-              test report if you have one.
-            </p>
-          </div>
-          <div className="flex items-start">
-            <span className="mr-3 text-green-500 font-bold">4.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Get AI Recommendations:</strong> Our AI will analyze the
-              data and provide personalized recommendations to improve your soil
-              health and crop yields.
-            </p>
-          </div>
-        </div>
+        <ol className="list-decimal list-inside text-left">
+          <li className="mb-2">
+            <strong>Step 1: Collect Samples:</strong> Follow the kit's
+            instructions for accurate soil sampling.
+          </li>
+          <li className="mb-2">
+            <strong>Step 2: Perform Tests:</strong> Use the kit to test pH, NPK,
+            organic carbon, etc.
+          </li>
+          <li className="mb-2">
+            <strong>Step 3: Enter Data:</strong> Input test results on the
+            "Test" page.
+          </li>
+          <li className="mb-2">
+            <strong>Step 4: Get AI Advice:</strong> Receive personalized
+            recommendations from our AI.
+          </li>
+        </ol>
       </section>
 
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4 text-center">
-          Navigating the Website
+          Navigating the Website - Steps
         </h2>
-        <div className="space-y-4">
-          <div className="flex items-start">
-            <span className="mr-3 text-blue-500 font-bold">1.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Home Page (Features):</strong> Learn about the key
-              features of our platform and how they can benefit you.
-            </p>
-          </div>
-          <div className="flex items-start">
-            <span className="mr-3 text-blue-500 font-bold">2.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>How It Works:</strong> Find detailed guides on using the
-              Mitti Kit and our website to analyze your soil.
-            </p>
-          </div>
-          <div className="flex items-start">
-            <span className="mr-3 text-blue-500 font-bold">3.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Pricing:</strong> Explore our pricing plans and choose the
-              one that suits your needs.
-            </p>
-          </div>
-          <div className="flex items-start">
-            <span className="mr-3 text-blue-500 font-bold">4.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Test:</strong> Enter your soil test data or upload a
-              report to receive AI-powered recommendations.
-            </p>
-          </div>
-        </div>
+        <ul className="list-disc list-inside text-left">
+          <li className="mb-2">
+            <strong>Step 1: Home (Features):</strong> Learn about our platform's
+            benefits.
+          </li>
+          <li className="mb-2">
+            <strong>Step 2: How It Works:</strong> Find guides on using the kit
+            and website.
+          </li>
+          <li className="mb-2">
+            <strong>Step 3: Pricing:</strong> Choose a plan that fits your
+            needs.
+          </li>
+          <li className="mb-2">
+            <strong>Step 4: Test:</strong> Enter soil data for AI analysis.
+          </li>
+        </ul>
       </section>
 
       <section>
         <h2 className="text-2xl font-semibold mb-4 text-center">
-          Using the Test Page
+          Using the Test Page - Steps
         </h2>
-        <div className="space-y-4">
-          <div className="flex items-start">
-            <span className="mr-3 text-purple-500 font-bold">1.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Enter Farmer and Location Details:</strong> Provide your
-              farmer ID and the location of your farm.
-            </p>
-          </div>
-          <div className="flex items-start">
-            <span className="mr-3 text-purple-500 font-bold">2.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Select Soil Type:</strong> Choose the soil type from the
-              dropdown menu.
-            </p>
-          </div>
-          <div className="flex items-start">
-            <span className="mr-3 text-purple-500 font-bold">3.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Enter Soil Parameters:</strong> Input the values for pH,
-              nitrogen, phosphorus, potassium, organic carbon, moisture content,
-              and electrical conductivity.
-            </p>
-          </div>
-          
-          <div className="flex items-start">
-            <span className="mr-3 text-purple-500 font-bold">5.</span>
-            <p className="text-lg text-gray-700 text-justify">
-              <strong>Generate AI Recommendation:</strong> Click the "Generate
-              AI Recommendation" button to receive personalized insights and
-              advice.
-            </p>
-          </div>
-        </div>
+        <ol className="list-decimal list-inside text-left">
+          <li className="mb-2">
+            <strong>Step 1: Enter Details:</strong> Provide farmer ID and
+            location.
+          </li>
+          <li className="mb-2">
+            <strong>Step 2: Select Soil Type:</strong> Choose from the
+            dropdown.
+          </li>
+          <li className="mb-2">
+            <strong>Step 3: Input Parameters:</strong> Enter pH, NPK, organic
+            carbon, etc.
+          </li>
+          <li className="mb-2">
+            <strong>Step 4: Generate Advice:</strong> Get AI-powered
+            recommendations.
+          </li>
+        </ol>
       </section>
     </main>
   );

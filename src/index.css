@@ -5,4 +5,7 @@
   font-weight: 600;
   font-style: normal;
 }
- 
+
+li {
+  list-style-type: none;
+}
