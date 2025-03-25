@@ -9,7 +9,7 @@ function Pricing() {
         Mitti pricing details. Choose the plan that best suits your needs.
       </p>
 
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-center gap-8 w-screen">
         {/* AI Personalized Report Card */}
         <div className="bg-gray-800 text-white rounded-lg shadow-md p-6 w-full md:w-80">
           <h2 className="text-2xl font-semibold mb-4">Mitti AI Premium</h2>
