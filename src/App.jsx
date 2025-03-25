@@ -5,7 +5,8 @@ import Pricing from "./pages/Pricing";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HowItWorks from "./pages/Howitworks";
 import Navbar from "./pages/Navbar";
-import SoilHealthDetection from "./pages/Test";
+import SoilHealthDetection from "./pages/Test2";
+// import SoilHealthDetection from "./pages/Test";
 
 function App() {
   return (
